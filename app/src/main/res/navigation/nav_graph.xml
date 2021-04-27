@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/topHeadlinesFragment">
+
+    <fragment
+        android:id="@+id/topHeadlinesFragment"
+        android:name="kz.aviata.ui.top_headlines.TopHeadlinesFragment">
+        <action
+            android:id="@+id/actionFromTopHeadlinesFragmentToDetailsFragment"
+            app:destination="@id/detailsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="kz.aviata.ui.details.DetailsFragment">
+        <argument
+            android:name="articleTitle"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/everythingFragment"
+        android:name="kz.aviata.ui.everything.EverythingFragment">
+        <action
+            android:id="@+id/actionFromEverythingFragmentToDetailsFragment"
+            app:destination="@id/detailsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/saveNewsFragment"
+        android:name="kz.aviata.ui.saved.SavedNewsFragment">
+        <action
+            android:id="@+id/actionFromSavedNewsFragmentToDetailsFragment"
+            app:destination="@id/detailsFragment"/>
+    </fragment>
+
+</navigation>

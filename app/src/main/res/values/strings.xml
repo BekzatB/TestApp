@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aviata</string>
+    <string name="general_error_message">""</string>
+    <string name="request_error">Too much attempt in 24 hours\nPlease retry later</string>
+    <string name="no_network_message">No Network\nPlease Check your internet connection</string>
+    <string name="author">Author: %s</string>
+    <string name="read_full">Read Full</string>
+</resources>

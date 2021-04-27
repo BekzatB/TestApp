@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@+id/tvDate"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:background="@color/blue"
+    android:gravity="start"
+    android:paddingVertical="16dp"
+    android:paddingStart="16dp"
+    android:textColor="@color/black"
+    android:textSize="14sp"
+    tools:text="TODAY" />

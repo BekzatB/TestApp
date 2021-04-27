@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DateHeader">
+        <attr name="android:layout_marginStart" />
+        <attr name="android:textColor" />
+        <attr name="dateTextSize" format="dimension" />
+    </declare-styleable>
+</resources>
